@@ -46,7 +46,7 @@ or
 
 run following command
 
-$ uim-module-manager --unregister cangjie3 --path ~/.uim.d/plugin
+    $ uim-module-manager --unregister cangjie3 --path ~/.uim.d/plugin
     $ uim-module-manager --unregister cangjie5 --path ~/.uim.d/plugin
 
 remove copied files.
