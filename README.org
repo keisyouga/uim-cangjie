@@ -28,7 +28,7 @@ uim 1.8.6
 $ uim-module-manager --register cangjieload --path ~/.uim.d/plugin
 #+END_SRC
 
-- edit =~/.uim= to add following code.
+- edit =~/.uim=, add following code.
 
 #+BEGIN_SRC scheme
 ;; modify ct.scm to find tables in ~/.uim.d/tables/
@@ -161,6 +161,19 @@ $ uim-fep -u cangjie5
 
 * uninstall
 
+** global uninstall
+
+- run following command
+
+#+BEGIN_SRC
+# uim-module-manager --unregister cangjieload
+#+END_SRC
+
+- delete copied files
+
+  - /usr/share/uim/cangjieload.scm
+  - /usr/share/uim/tables/cangjie3.table
+  - /usr/share/uim/tables/cangjie5.table
 
 ** user uninstall
 
@@ -175,17 +188,3 @@ $ uim-module-manager --unregister cangjieload --path ~/.uim.d/plugin
   - ~/.uim.d/plugin/cangjieload.scm
   - ~/.uim.d/tables/cangjie3.table
   - ~/.uim.d/tables/cangjie5.table
-
-** global uninstall
-
-- run following command
-
-#+BEGIN_SRC
-# uim-module-manager --unregister cangjieload
-#+END_SRC
-
-- delete copied files
-
-  - /usr/share/uim/cangjieload.scm
-  - /usr/share/uim/tables/cangjie3.table
-  - /usr/share/uim/tables/cangjie5.table
