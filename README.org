@@ -18,7 +18,7 @@ uim (version 1.8.6 or later)
 # uim-module-manager --register cangjieload
 #+END_SRC
 
-** install to =~/.uim.d/plugin/=.
+** install to =~/.uim.d/plugin/=
 
 - copy cangjieload.scm to =~/.uim.d/plugin/=.
 - copy cangjie3.table cangjie5.table to =~/.uim.d/tables/=.
